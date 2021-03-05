@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>Augusto</Authors>
+    <Product>Emailzor</Product>
+    <PackageProjectUrl>https://augustohtpereira.github.io/emailzor/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AugustoHTPereira/emailzor</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
