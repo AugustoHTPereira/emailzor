@@ -1,0 +1,9 @@
+<p align="center">
+  <img src="https://lh3.googleusercontent.com/fife/ABSRlIrexTRQnZrgYItVir7uLv8UvjGiEwvJfrDfcxm15ktvxHdZjR0Ifu6XH7DWAnLRPpAfLImLD2G3BlOBrPPb3pgeC7sAAnE4ajxOc9XZOApa1DB1dZz7joL-5VE3nGwC4duSoauQ283y6SVbiOhiaTKPkAysrT_FrbEMnk-7wasyAozMr55J42Pbno6QWOAZdhMVkA-6ZqOX45v3yM5S_ZzmfkBC4L_N9ccvPD_4CK7FvOHQISq3k0yNIvPnkPHmD5Rsu-0DLPGCwi0-9ZiAxpcTK_UO6sgAkZBPhIfBxGddZZwl7g6SjvaR_36pNhTC1CfWTwYtpM7ufjCQ_tUGeUyBO70EZlcS_HO3vhNIReeced1ORCj_YxNU72Rjbrkrsoqxr1Sgy6OaLwL2XUXFrwmmKZEF4njEmyr8g31AdsTPmMlBbladYfTCsg-JcPJ3W55yi2-c5-hFPALwb1KKvSh4SO6Lp_vL5BNvcrYQM0lIIeAJa3PDzNW4_frtBlruKov860H0KMtalhEHE3qeuzSIo_g_QbV-CQI_OFArK9UK7w3EEdY-QJEHWZ-B0wcDMcPKtPbM_VTDZ_zMtUCCY_VC6JdCfkhscAuZybI1k3oo9KEGUoOaadoqZCKMvEInIB_ijAY0-pJP8u1CEVwc6qW_4a0uFLJvVxao9hRQll3-_pBTUzNKKtWezvFh8sQxA9kHLSF70-MaN4zN0Mh7V7xbajWTEDPn7qk=w1920-h931-ft" width="120px" />
+</p>
+
+# Emailzor
+
+It's an open source package to send .NET e-mails like a pro :star2:.
+
+Let's contribute! :boom:
