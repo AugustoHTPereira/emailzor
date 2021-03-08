@@ -6,6 +6,7 @@
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Authors>Augusto</Authors>
     <Product>Emailzor</Product>
+    <IsPackable>true</IsPackable>
     <PackageProjectUrl>https://augustohtpereira.github.io/emailzor/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/AugustoHTPereira/emailzor</RepositoryUrl>
   </PropertyGroup>
