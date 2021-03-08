@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emailzor", "Emailzor\Emailzor.csproj", "{7835F6A8-6DB6-4C47-8D45-5150CA266813}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emailzor.Core", "Emailzor.Core\Emailzor.Core.csproj", "{88D0A361-11F5-473F-BE11-5919A892FF97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emailzor.Core", "Emailzor.Core\Emailzor.Core.csproj", "{88D0A361-11F5-473F-BE11-5919A892FF97}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emailzor.Exe", "Emailzor.Exe\Emailzor.Exe.csproj", "{AFDB2361-D77C-488A-8845-F79D660C6C4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emailzor.Core.Implementation", "Emailzor.Core.Implementation\Emailzor.Core.Implementation.csproj", "{6AE42BE6-1F9D-4FB2-B848-6B77A1D589E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7835F6A8-6DB6-4C47-8D45-5150CA266813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7835F6A8-6DB6-4C47-8D45-5150CA266813}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7835F6A8-6DB6-4C47-8D45-5150CA266813}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7835F6A8-6DB6-4C47-8D45-5150CA266813}.Release|Any CPU.Build.0 = Release|Any CPU
 		{88D0A361-11F5-473F-BE11-5919A892FF97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{88D0A361-11F5-473F-BE11-5919A892FF97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88D0A361-11F5-473F-BE11-5919A892FF97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88D0A361-11F5-473F-BE11-5919A892FF97}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AFDB2361-D77C-488A-8845-F79D660C6C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AFDB2361-D77C-488A-8845-F79D660C6C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AFDB2361-D77C-488A-8845-F79D660C6C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AFDB2361-D77C-488A-8845-F79D660C6C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE42BE6-1F9D-4FB2-B848-6B77A1D589E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE42BE6-1F9D-4FB2-B848-6B77A1D589E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE42BE6-1F9D-4FB2-B848-6B77A1D589E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE42BE6-1F9D-4FB2-B848-6B77A1D589E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

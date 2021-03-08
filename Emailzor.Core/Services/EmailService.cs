@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Emailzor.Core.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Mail;
@@ -10,24 +11,27 @@ namespace Emailzor.Core
 {
     public class EmailService : IEmailService
     {
+        private readonly ISettings Settings;
         private EmailMessage EmailMessage;
         private SmtpClient Client;
 
-        public EmailService()
+        public EmailService(ISettings settings)
         {
+            Settings = settings;
             EmailMessage = new EmailMessage();
-            Client = new SmtpClient("smtp.mailtrap.io", 2525)
+            Client = new SmtpClient(Settings.Host, Settings.Port)
             {
-                Credentials = new NetworkCredential("930c40608c8c75", "7f6a097671b939"),
+                Credentials = new NetworkCredential(Settings.SmtpUser, Settings.SmtpPass),
                 EnableSsl = true
             };
         }
 
         public Task SendAsync()
         {
-            var mailMessage = new MailMessage("augustohtp8@gmail.com", EmailMessage.To, EmailMessage.Subject, EmailMessage.Html ?? EmailMessage.PlainText);
+            var mailMessage = new MailMessage(Settings.DefaultFromAddress, EmailMessage.To, EmailMessage.Subject, EmailMessage.Html ?? EmailMessage.PlainText);
             mailMessage.AlternateViews.Add(AlternateView.CreateAlternateViewFromString(EmailMessage.Html, new System.Net.Mime.ContentType("text/html")));
             mailMessage.AlternateViews.Add(AlternateView.CreateAlternateViewFromString(EmailMessage.PlainText, new System.Net.Mime.ContentType("text/plain")));
+            mailMessage.From = new MailAddress(Settings.DefaultFromAddress, EmailMessage.DisplayName ?? Settings.DefaultFromName);
 
             Client.Send(mailMessage);
 
